@@ -59,8 +59,8 @@ public class Splash extends AppCompatActivity{
 			Intent intent;
 
 			/*
-			* Camera2 APIをimportするだけでAndroid2.3.3はクラッシュするので、仕方なく2つのMainとAbout画面に分けた
-			* 因みにCamera APIは5.0から非推奨だけど動くが、6.0だと動作しないので、6.0以上と6.0未満で振り分けている
+			* Camera2 APIをimportするだけでAndroid2.3.3はクラッシュするので、仕方なく2つのMainとAboutクラス分けた。
+			* 因みにCamera APIは5.0から非推奨だけど動くけど、6.0だと動作しないので、6.0以上と6.0未満で振り分けている。
 			* */
 
 			if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
