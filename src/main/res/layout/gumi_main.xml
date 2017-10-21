@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        	<android.support.v7.widget.Toolbar
+        	    android:id="@+id/toolbar"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:minHeight="?attr/actionBarSize" />
+
+        	<SurfaceView
+        	    android:id="@+id/compassView"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentBottom="true"
+        	    android:layout_below="@+id/toolbar"
+        	    android:layout_centerHorizontal="true" />
+
+        	<TextView
+        	    android:id="@+id/text_azimuth"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignTop="@+id/compassView"
+        	    android:layout_centerHorizontal="true"
+        	    android:text=""
+        	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<TextView
+        	    android:id="@+id/text_compass"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignRight="@+id/text_azimuth"
+        	    android:layout_below="@+id/text_azimuth"
+        	    android:text=""
+        	    android:textAppearance="?android:attr/textAppearanceLarge"
+				tools:ignore="RtlHardcoded" />
+        	
+</RelativeLayout>

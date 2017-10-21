@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/theme" android:title="@string/menu_theme"></item>
+    <item android:id="@+id/about" android:title="@string/menu_about"></item>
+	<item android:id="@+id/lightonoff" android:title="light" android:orderInCategory="10"
+	    app:showAsAction="always" android:icon="@drawable/light"></item>
+</menu>

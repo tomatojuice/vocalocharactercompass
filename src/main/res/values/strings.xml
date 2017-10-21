@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miku Compass</string>
+    <string name="about">About Miku Compass</string>
+    <string name="north">Direction: North</string>
+    <string name="north_east">Direction: North East</string>
+    <string name="east">Direction: East</string>
+    <string name="south_east">Direction: South East</string>
+    <string name="south">Direction: South</string>
+    <string name="south_west">Direction: South West</string>
+    <string name="west">Direction: West</string>
+    <string name="north_west">Direction: North West</string>
+
+	<string name="about_title">About Miku Compass</string>
+	<string name="about_1">Miku Compass is unofficial app</string>
+	<string name="about_2">It is simple compass and light app\n
+	This apps Support Android Wear\n
+	</string>
+	<string name="version_name">Ver2.0\n</string>
+
+	<string name="about_howto">☆How to use☆</string>
+	<string name="about_3">Range of the following figure , you can use it in the range of up to 90 degrees from a horizontal axis</string>
+	<string name="about_4">※ I recommend use within approximately 65 degrees from a horizontal axis</string>
+	<string name="web_link">web</string>
+	
+	<string name="about_sensor">\n☆Supported Sensors☆</string>	
+	<string name="about_summary">These list is supported sensors on your device\n</string>
+	<string name="sensor">sensor</string>
+
+	<string name="menu_theme">Themes</string>	
+	<string name="menu_about">About this app</string>
+
+	<string-array name="theme_array">
+	    <item name="theme-1">Miku</item>
+	    <item name="theme-2">Gumi</item>
+	</string-array>
+
+	<string name="cate_title">Setting</string>
+	<string name="pre_title">Themes</string>
+	<string name="pre_summary">Select a Theme</string>
+	<string name="dialog_title">Themes</string>	
+
+	<string name="toast_text">This fanction will be added at later date</string>
+	<string name="toast_text_No_Senser">Your device do not have the sensor that need to use compass function</string>
+
+</resources>

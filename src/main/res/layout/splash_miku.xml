@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_miku"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/splashtext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/app_name"
+		android:layout_gravity="center" android:textSize="25sp" android:textColor="@color/miku_3"/>
+
+	<TextView
+		android:id="@+id/splashversion"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/version_name"
+		android:layout_gravity="center" android:textSize="18sp" android:textColor="@color/miku_3"/>
+</LinearLayout>

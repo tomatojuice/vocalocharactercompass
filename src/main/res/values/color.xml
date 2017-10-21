@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Miku -->
+	<color name="miku_1">#373b3e</color>
+	<color name="miku_2">#bec8d1</color>
+	<color name="miku_3">#fffeec</color>
+	<color name="miku_4">#c3e5e7</color>
+	<color name="miku_5">#86cecb</color>
+	<color name="miku_6">#137a7f</color>
+	<color name="miku_7">#e12885</color>
+	<color name="miku_8">#e8b7f2</color>
+	<color name="miku_9">#0b494c</color>
+	<color name="miku_10">#00a1b1</color>
+
+	<!-- Gumi -->
+	<color name="gumi_1">#e77d34</color>
+	<color name="gumi_2">#ffdec4</color>
+	<color name="gumi_3">#ffb277</color>	
+	<color name="gumi_4">#d76424</color>
+	<color name="gumi_5">#b1c559</color>
+	<color name="gumi_6">#59653c</color>
+	<color name="gumi_7">#fb5900</color>
+
+
+</resources>

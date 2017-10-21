@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miku Compass</string>
+    <string name="about">ミクコンパスについて</string>
+    <string name="north">方位: 北</string>
+    <string name="north_east">方位: 北東</string>
+    <string name="east">方位: 東</string>
+    <string name="south_east">方位: 東南</string>
+    <string name="south">方位: 南</string>
+    <string name="south_west">方位: 南西</string>
+    <string name="west">方位: 西</string>
+    <string name="north_west">方位: 北西</string>
+
+	<string name="about_title">About Miku Compass</string>
+	<string name="about_1">Miku Compassは非公式のアプリです</string>
+	<string name="about_2">シンプルなコンパス＆懐中電灯アプリです\n
+	Android Wearにも対応してます\n
+	</string>
+	<string name="version_name">Ver2.0\n</string>
+
+	<string name="about_howto">☆使い方☆</string>
+	<string name="about_3">下記の図の範囲、水平から最大90度の範囲で使用出来ます</string>
+	<string name="about_4">※水平から約65度程度の範囲内での使用を推奨します</string>
+	<string name="web_link">web</string>
+
+	<string name="about_sensor">\n☆利用可能なセンサー一覧☆</string>
+	<string name="about_summary">端末搭載のセンサー一覧です\n</string>
+	<string name="sensor">sensor</string>
+
+	<string name="menu_theme">テーマ</string>	
+	<string name="menu_about">アプリについて</string>
+
+	<string-array name="theme_array">
+	    <item name="theme-1">Miku</item>
+	    <item name="theme-2">Gumi</item>
+	</string-array>
+
+	<string name="cate_title">設定</string>
+	<string name="pre_title">テーマ</string>
+	<string name="pre_summary">テーマ選択</string>
+	<string name="dialog_title">テーマ</string>	
+
+	<string name="toast_text">後日実装します</string>
+	<string name="toast_text_No_Senser">必要なセンサー未実装の為、コンパス機能はご利用いただけません</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miku Compass</string>
+    <string name="about">关于Miku Compass</string>
+    <string name="north">方位: 北</string>
+    <string name="north_east">方位: 东北</string>
+    <string name="east">方位: 东</string>
+    <string name="south_east">方位: 东南</string>
+    <string name="south">方位: 南</string>
+    <string name="south_west">方位: 西南</string>
+    <string name="west">方位: 西</string>
+    <string name="north_west">方位: 西北</string>
+
+	<string name="about_title">关于Miku Compass</string>
+	<string name="about_1">Miku Compass是非官方的应用</string>
+	<string name="about_2">拥有指南针和手电筒的功能的简单的应用\n
+	本应用支持Android Wear\n
+	</string>
+	<string name="version_name">Ver2.0\n</string>
+
+	<string name="about_howto">☆About Miku Compass☆</string>
+	<string name="about_3">从水平最大90度的范围内可以使用。请看下面的图片</string>
+	<string name="about_4">建议您从水平大约65度的范围内使用这指南针应用</string>
+	<string name="web_link">web</string>
+
+	<string name="about_sensor">\n☆能利用的传感器☆</string>
+	<string name="about_summary">您所使用的设备支持的传感器的一览表\n</string>
+	<string name="sensor">sensor</string>
+
+	<string name="menu_theme">主题</string>	
+	<string name="menu_about">关于</string>
+
+	<string-array name="theme_array">
+	    <item name="theme-1">Miku</item>
+	    <item name="theme-2">Gumi</item>
+	</string-array>
+
+	<string name="cate_title">设定</string>
+	<string name="pre_title">主题</string>
+	<string name="pre_summary">从栏目中选择主题</string>
+	<string name="dialog_title">主题</string>
+
+	<string name="toast_text">改天安装这个功能</string>
+	<string name="toast_text_No_Senser">您的设备没有所需要的传感器，因此不能用指南针的功能</string>
+
+
+</resources>

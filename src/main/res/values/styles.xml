@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- Miku Theme -->
+	<style name="MikuTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/miku_3</item>
+		<item name="android:windowBackground">@color/miku_5</item>
+		<item name="android:windowFullscreen">true</item>
+<!-- 	<item name="colorAccent">@color/miku_4</item>
+		<item name="colorControlNormal">@color/miku_4</item>
+		<item name="colorSwitchThumbNormal">@color/miku_4</item>
+		<item name="colorControlActivated">@color/miku_4</item>	-->
+	 	<item name="toolbarStyle">@style/MikuToolbar</item>
+		<item name="android:windowOverscan">true</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="MikuToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/miku_6</item>
+	    <item name="popupTheme">@style/PopupMenu_Miku</item>
+ 	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Miku" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/miku_6</item>
+    	<item name="android:textColor">@color/miku_3</item>
+	</style>
+
+
+	<!-- Gumi Theme -->
+	<style name="GumiTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:textColorPrimary">@color/gumi_1</item>
+		<item name="android:windowBackground">@color/gumi_1</item>
+		<item name="android:windowFullscreen">true</item>
+<!-- 	<item name="colorAccent">@color/miku_4</item>
+		<item name="colorControlNormal">@color/miku_4</item>
+		<item name="colorSwitchThumbNormal">@color/miku_4</item>
+		<item name="colorControlActivated">@color/miku_4</item>	-->
+		<item name="android:windowOverscan">true</item>
+	 	<item name="toolbarStyle">@style/GumiToolbar</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="GumiToolbar" parent="Widget.AppCompat.Toolbar">
+	    <item name="android:background">@color/gumi_1</item>
+	    <item name="popupTheme">@style/PopupMenu_Gumi</item>
+ 	    <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="PopupMenu_Gumi" parent="ThemeOverlay.AppCompat.Light">
+    	<item name="android:background">@color/gumi_1</item>
+    	<item name="android:textColor">@color/gumi_2</item>
+	</style>
+
+</resources>

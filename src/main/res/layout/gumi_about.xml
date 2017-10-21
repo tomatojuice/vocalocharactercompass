@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="vertical" android:id="@+id/mainlinear" >
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="?attr/actionBarSize" />
+
+	<LinearLayout
+		android:id="@+id/admodlinear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/gumi_3"
+		android:orientation="vertical" />
+
+<ScrollView android:id="@+id/mainscrollView" android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/gumi_about">
+
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:id="@+id/sublinear">
+	
+	<TextView
+		android:id="@+id/abouttitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/about_title"
+		android:textColor="@color/gumi_6"
+		android:textSize="25sp" />
+	
+	<TextView android:id="@+id/about1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/about_1" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView android:id="@+id/about2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/about_2" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView
+		android:id="@+id/versionname" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/version_name" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView
+		android:id="@+id/abouthowto"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/about_howto"
+		android:textColor="@color/gumi_6"
+		android:textSize="25sp" />
+	
+	<TextView android:id="@+id/about3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/about_3" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView android:id="@+id/about4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/about_4" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView android:id="@+id/weblink" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/web_link" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView
+		android:id="@+id/aboutsensor"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="@string/about_sensor"
+		android:textColor="@color/gumi_6"
+		android:textSize="25sp" />
+
+	<TextView android:id="@+id/about_summary" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/about_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView android:id="@+id/sensor" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/sensor" android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<ImageView android:id="@+id/infomiku" android:layout_width="match_parent" android:layout_height="match_parent"
+		android:src="@drawable/gumi_info" android:contentDescription="@string/about_4"/>
+
+	</LinearLayout>
+</ScrollView>
+</LinearLayout>
